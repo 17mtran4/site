@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", "Comic Sans MS";
+    color: #ff4d58;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+p, li, q {
+    color: #323232;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.banner {
+    font-family: "Lobster";
+    background-color: #fff;
+    color: #fff;
+    font-size: 2em;
+    padding: 10px;
+    background-image: url("../images/wallpaper.jpg");
+    background-position: -100px 330px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    width: 960px;
+    height: 1250px;
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* footer */
+footer {
+    /*padding: 5em;*/
+    background-color: #323232;
+    color: #fff;
+    display: block;
+}
+
+.footer-area {
+    background-color: #323232;
+    padding: 170px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+footer h3, .container h3 {
+    -webkit-margin-after: .3em;
+}
+
+footer .links {
+    width: 10%;
+    float: left;
+    color: #fff;
+}
+
+footer .sc {
+    width: 60%;
+    float: left;
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+.copyright-text {
+    float: right;
+    padding-top: 140px;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #323232;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Removes line breaks for nav */
+}
+
+nav li a:hover {
+    background-color: #232323;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+}
+
+nav .active {
+    background-color: #ff4d58;
+}

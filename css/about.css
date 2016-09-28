@@ -1,0 +1,30 @@
+.user {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.logo {
+    background-image: url("../images/matt.gif");
+}
+
+table, td, th {
+    border: 1px solid #ff4d58;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 10px;
+    color: #323232; /* 919191 323232*/
+    
+}
